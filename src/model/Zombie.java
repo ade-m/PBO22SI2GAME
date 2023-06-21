@@ -5,4 +5,8 @@ public class Zombie extends Enemy {//subclass enemy
         System.out.println("Zombie Jalan!!!");
 
     }
+    @Override
+    public void serang(){
+        System.out.println("Zombie Serang!!!");
+    }
 }

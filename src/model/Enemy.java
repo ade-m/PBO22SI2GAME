@@ -1,6 +1,6 @@
 package model;
 
-public class Enemy { //superclass
+public abstract class Enemy { //superclass
     private String nama;
     private int hp;
     private int attackPoin;
@@ -13,7 +13,7 @@ public class Enemy { //superclass
         this.hp = hp;
         this.attackPoin = attackPoin;
     }
-
+    public abstract void serang();
     public void attack(){
         System.out.println("Serang!!!");
     }
